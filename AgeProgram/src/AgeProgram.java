@@ -12,7 +12,13 @@ public class AgeProgram {
         } else {
             System.out.println("You are not an adult yet.");
         }
-
+if (age < 0) {
+    System.out.println("Invalid age.");
+} else if (age >= 18) {
+    System.out.println("You are an adult.");
+} else {
+    System.out.println("You are not an adult yet.");
+}
         input.close();
     }
 }
